@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.vemcomigo.radio'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.vemcomigo.radio.painel'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '2.6-painel'
+    }
+}
+
+dependencies {
+}
