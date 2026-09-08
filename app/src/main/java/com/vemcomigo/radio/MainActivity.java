@@ -12,8 +12,10 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.view.*;
 import android.widget.*;
-import java.io.file;
 import java.util.*;
+import java.io.File;
+
+
 
 public class MainActivity extends Activity {
     private static final String STREAM_URL = "http://sapircast.caster.fm:19513/QKnuH";
