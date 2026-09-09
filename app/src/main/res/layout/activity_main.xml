@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#07111D"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="12dp"
+        android:background="#091522"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <TextView
+            android:text="WEBTV"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="FULL"
+            android:textColor="#16A8FF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1" />
+        <TextView android:text="⌕" android:textColor="#FFFFFF" android:textSize="30sp" android:gravity="center" android:layout_width="42dp" android:layout_height="match_parent" />
+        <TextView android:id="@+id/testButton" android:text="🧪" android:textColor="#FFFFFF" android:textSize="20sp" android:gravity="center" android:layout_width="42dp" android:layout_height="match_parent" />
+        <TextView android:text="⋮" android:textColor="#FFFFFF" android:textSize="28sp" android:gravity="center" android:layout_width="32dp" android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/playerBox"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"
+            android:use_controller="true"
+            android:show_buffering="when_playing" />
+        <SurfaceView
+            android:id="@+id/secondaryPlayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/playerStatus"
+            android:text="Selecione um canal para assistir"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="#66000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+        <LinearLayout
+            android:id="@+id/categories"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </HorizontalScrollView>
+
+    <EditText
+        android:id="@+id/search"
+        android:hint="Pesquisar canais, jogos e novelas..."
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#718096"
+        android:background="#111E2D"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="46dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+        <TextView
+            android:id="@+id/section"
+            android:text="INÍCIO"
+            android:textColor="#18A8FF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <TextView
+            android:text="AO VIVO"
+            android:textColor="#FF3D4F"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:clipToPadding="false" />
+</LinearLayout>
