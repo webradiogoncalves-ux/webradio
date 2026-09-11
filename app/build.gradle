@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.vemcomigo.painel'; compileSdk 35
+    defaultConfig { applicationId 'com.vemcomigo.painel'; minSdk 23; targetSdk 35; versionCode 3; versionName '3.0-Automacao-Pregacao-AoVivo' }
+}

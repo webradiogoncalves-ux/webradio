@@ -1,0 +1,18 @@
+{
+  "timezone":"America/Sao_Paulo",
+  "programas":[
+    {"inicio":"00:00","fim":"09:00","nome":"MADRUGADA COM DEUS","audio":"13_madrugada_com_deus.mp3","chamada_inicio":"asset_17_inicio_p13_madrugada_com_deus.mp3"},
+    {"inicio":"09:00","fim":"09:30","nome":"PROGRAMA REFLEXÃO","audio":"01_programa_reflexao.mp3"},
+    {"inicio":"09:30","fim":"10:00","nome":"PROGRAMA FÉ MEIA HORA","audio":"02_programa_fe_meia_hora.mp3"},
+    {"inicio":"10:00","fim":"12:00","nome":"VEM COMIGO MANHÃ","audio":"03_vem_comigo_manha.mp3"},
+    {"inicio":"12:00","fim":"12:30","nome":"PROGRAMA MEIA DIA — EDIÇÃO MEIO-DIA","audio":"04_programa_meia_dia.mp3"},
+    {"inicio":"12:30","fim":"13:30","nome":"ALMOÇO COM DEUS","audio":"05_almoco_com_deus.mp3","chamada_inicio":"asset_01_inicio_p05_almoco_com_deus.mp3"},
+    {"inicio":"13:30","fim":"14:00","nome":"REFLEXÃO TARDE","audio":"06_reflexao_tarde.mp3","chamada_inicio":"asset_03_inicio_p06_reflexao_tarde.mp3"},
+    {"inicio":"14:00","fim":"15:00","nome":"PROGRAMA VEM COMIGO TARDE","audio":"07_vem_comigo_tarde.mp3","chamada_inicio":"asset_05_inicio_p07_vem_comigo_tarde.mp3"},
+    {"inicio":"15:00","fim":"16:00","nome":"VEM COMIGO CAFÉ E GLÓRIA","audio":"08_cafe_e_gloria.mp3","chamada_inicio":"asset_07_inicio_p08_vem_comigo_cafe_e_gloria.mp3"},
+    {"inicio":"16:00","fim":"19:00","nome":"LOUVOR E REFLEXÃO","audio":"09_louvor_e_reflexao.mp3","chamada_inicio":"asset_09_inicio_p09_louvor_e_reflexao.mp3"},
+    {"inicio":"19:00","fim":"21:00","nome":"TARDIZINHA COM DEUS","audio":"10_tardizinha_com_deus.mp3","chamada_inicio":"asset_11_inicio_p10_tardizinha_com_deus.mp3"},
+    {"inicio":"21:00","fim":"21:55","nome":"PROGRAMA FÉ — EDIÇÃO NOITE","audio":"11_fe_edicao_noite.mp3","chamada_inicio":"asset_13_inicio_p11_fe_edicao_noite.mp3"},
+    {"inicio":"21:55","fim":"23:55","nome":"PROGRAMA NOITE COM DEUS","audio":"12_noite_com_deus.mp3","chamada_inicio":"asset_15_inicio_p12_noite_com_deus.mp3"}
+  ]
+}
