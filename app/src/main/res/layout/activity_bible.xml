@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#05080F" android:padding="14dp">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BÍBLIA SAGRADA" android:textColor="#FFD12A" android:textSize="23sp" android:textStyle="bold" android:gravity="center"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="10dp" android:gravity="center">
+        <Spinner android:id="@+id/book" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <NumberPicker android:id="@+id/chapter" android:layout_width="70dp" android:layout_height="55dp" android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+    <TextView android:id="@+id/reference" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#AFC0D6" android:textSize="14sp" android:gravity="center" android:padding="6dp"/>
+    <TextView android:id="@+id/text" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:textColor="#FFFFFF" android:textSize="17sp" android:lineSpacingExtra="5dp" android:padding="10dp" android:background="#0B1220"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="55dp" android:gravity="center">
+        <Button android:id="@+id/prev" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:text="‹ ANTERIOR" android:textColor="#FFFFFF"/>
+        <Button android:id="@+id/next" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:text="PRÓXIMO ›" android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
